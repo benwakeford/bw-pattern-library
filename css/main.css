@@ -61,11 +61,43 @@ textarea {
    ========================================================================== */
 
 
+/* Quick and dirty setup */
+
+body {
+    background: #fff;
+    color: #444;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+a, a:visited { text-decoration: none; color: #0093d0; }
+a:hover, a:active, a:focus { color: #006591; }
 
 
+/* Structure */
+
+.header {
+    width: 100%;
+    background: #eee;
+    padding: 2em 0 1em;
+}
+.row {
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+}
 
 
+.section {
+    border-bottom: 1px solid #eee;
+    padding: 1em 0;
+}
 
+/* Specific */
+
+.logo {
+    background: #b22222;
+    color: #fff;
+    padding: 0.3em;
+}
 
 
 
