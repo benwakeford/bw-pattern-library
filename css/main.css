@@ -149,6 +149,41 @@ a.slide-arrow:hover:after {
 }
 
 
+/* 3) Fade out bottom of copy */
+
+.fade-out-copy:after {
+	content: "";
+	filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorstr='#00E7E7E2',endColorstr='#FFE7E7E2');
+	background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgi…pZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+	background-size: 100%;
+	background-image: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0,rgba(231,231,226,0)),color-stop(100%,#fff));
+	background-image: -webkit-linear-gradient(top,rgba(231,231,226,0) 0,#fff 100%);
+	background-image: -moz-linear-gradient(top,rgba(231,231,226,0) 0,#fff 100%);
+	background-image: -o-linear-gradient(top,rgba(231,231,226,0) 0,#fff 100%);
+	background-image: linear-gradient(top,rgba(231,231,226,0) 0,#fff 100%);
+	display: block;
+	position: absolute;
+	pointer-events: none;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 20%;
+}
+
+.fade-out-copy-style {
+	max-width: 500px;
+	height: 5.6em;
+	overflow: hidden;
+	position: relative;
+}
+.fade-out-copy-style p {
+	margin-top: 0;
+	font-size: 0.9em;
+	line-height: 1.3em;
+}
+
+
+
 
 /* ==========================================================================
    Media Queries
